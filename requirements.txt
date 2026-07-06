@@ -1,0 +1,15 @@
+google-generativeai
+streamlit
+fastapi
+uvicorn
+langgraph
+langchain
+langchain-core
+langchain-community
+langchain-google-genai
+pymupdf
+python-dotenv
+faiss-cpu
+pydantic
+tqdm
+requests
