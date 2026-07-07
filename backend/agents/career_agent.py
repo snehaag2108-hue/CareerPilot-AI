@@ -6,11 +6,16 @@ class CareerAgent:
 
     def suggest_career(self, skills, interests, experience):
 
-        # Save the latest user interest
-        memory.save("latest_interest", interests)
-
-        # Load all saved memory
+        # Load existing memory
         saved_memory = memory.load()
+
+        # Update memory
+        saved_memory["latest_interest"] = interests
+        saved_memory["latest_skills"] = skills
+        saved_memory["latest_experience"] = experience
+
+        # Save updated memory
+        memory.save(saved_memory)
 
         prompt = f"""
 You are a professional Career Counselor.
