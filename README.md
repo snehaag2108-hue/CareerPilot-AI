@@ -386,3 +386,9 @@ Built as part of the **Kaggle 5-Day AI Agents Intensive Capstone Project (2026)*
 # 📄 License
 
 This project is intended for educational purposes and the Kaggle AI Agents Intensive Capstone submission.
+
+---
+
+# 🔗 Deployement Link
+
+https://careerpilot-ai-wlp7m7ychmrruuuzxfpzpw.streamlit.app/
