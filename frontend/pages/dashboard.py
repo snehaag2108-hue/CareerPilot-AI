@@ -1,6 +1,8 @@
 import streamlit as st
 import json
 
+API_URL = "https://careerpilot-ai-zqs8.onrender.com"
+
 st.set_page_config(
     page_title="Dashboard",
     page_icon="📊",

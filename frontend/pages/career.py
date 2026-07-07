@@ -1,7 +1,7 @@
 import streamlit as st
 import requests
 
-API = "http://127.0.0.1:8000"
+API_URL = "https://careerpilot-ai-zqs8.onrender.com"
 
 st.title("💬 Career Chat")
 
